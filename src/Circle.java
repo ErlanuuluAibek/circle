@@ -10,11 +10,11 @@ public class Circle {
     }
 
 
-    public static void area(){
+    public static void area(double radius){
         double area=PI*(radius*radius);
         System.out.println("area: "+area);
     }
-    public static void circumference(){
+    public static void circumference(double radius){
         double circumference=PI*2*radius;
         System.out.println("circumference: "+circumference);
     }
